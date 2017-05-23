@@ -39,17 +39,19 @@ namespace EasyLOB.Mvc
             string user = ConfigurationHelper.AppSettings<string>("Report.RDL.User");
             string password = ConfigurationHelper.AppSettings<string>("Report.RDL.Password");
             reportOptions.ReportModel.ReportServerCredential = new System.Net.NetworkCredential(user, password);
+            //string domain = ConfigurationHelper.AppSettings<string>("Report.RDL.Domain");
+            //reportOptions.ReportModel.ReportServerCredential = new System.Net.NetworkCredential(user, password, domain);
 
             // Report Path
 
             //reportOptions.ReportModel.ReportPath = ...
 
             // Data Source Credentials
-           
-            string connection = MultiTenantHelper.Tenant.Connections[0].ConnectionName;
-            string[] userPassword = AdoNetHelper.GetUserPassword(connection);
-            DataSourceCredentials dataSourceCredentials = new DataSourceCredentials(connection, userPassword[0], userPassword[1]);
-            reportOptions.ReportModel.DataSourceCredentials.Add(dataSourceCredentials);
+
+            //string connection = MultiTenantHelper.Tenant.Connections[0].ConnectionName;
+            //string[] userPassword = AdoNetHelper.GetUserPassword(connection);
+            //DataSourceCredentials dataSourceCredentials = new DataSourceCredentials(connection, userPassword[0], userPassword[1]);
+            //reportOptions.ReportModel.DataSourceCredentials.Add(dataSourceCredentials);
         }
 
         /// <summary>
