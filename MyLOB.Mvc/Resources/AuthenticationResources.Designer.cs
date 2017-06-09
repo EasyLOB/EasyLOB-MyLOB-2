@@ -241,6 +241,15 @@ namespace EasyLOB.Authentication.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to User Locked.
+        /// </summary>
+        public static string UserLocked {
+            get {
+                return ResourceManager.GetString("UserLocked", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to User.
         /// </summary>
         public static string UserName {
