@@ -269,10 +269,10 @@
     <Compile Include="EasyLOB\Filters\EasyLOBMyLOBProfileAttribute.cs" />
     <Compile Include="EasyLOB\Filters\EasyLOBMultiTenantAttribute.cs" />
     <Compile Include="EasyLOB\Filters\EasyLOBProfileAttribute.cs" />
-    <Compile Include="EasyLOB\Mvc\CultureAttribute.cs" />
-    <Compile Include="EasyLOB\Mvc\CustomRazorViewEngine.cs" />
+    <Compile Include="EasyLOB\MVC\CultureAttribute.cs" />
+    <Compile Include="EasyLOB\MVC\CustomRazorViewEngine.cs" />
     <Compile Include="Models\LookupModel.cs" />
-    <Compile Include="EasyLOB\Mvc\ValidateModelStateAttribute.cs" />
+    <Compile Include="EasyLOB\MVC\ValidateModelStateAttribute.cs" />
     <Compile Include="EasyLOB\Syncfusion\Dashboard\DashboardServiceSerialization.cs" />
     <Compile Include="EasyLOB\Syncfusion\Dashboard\DashboardViewer.cs" />
     <Compile Include="EasyLOB\Syncfusion\XlsIOExtensions.cs" />
@@ -285,7 +285,7 @@
     <Compile Include="EasyLOB\Unity\UnityHelperIdentity.cs" />
     <Compile Include="EasyLOB\Unity\UnityHelperLog.cs" />
     <Compile Include="EasyLOB\Unity\UnityHelperMyLOB.cs" />
-    <Compile Include="EasyLOB\WebApi\UnityResolver.cs" />
+    <Compile Include="EasyLOB\WebAPI\UnityResolver.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1230,9 +1230,9 @@
     <Folder Include="Controllers\Activity\" />
     <Folder Include="Controllers\AuditTrail-Custom\" />
     <Folder Include="Controllers\Identity-Custom\" />
-    <Folder Include="Controllers\MyLOBAPI-Custom\" />
-    <Folder Include="Controllers\MyLOBAPI\" />
     <Folder Include="Controllers\MyLOB\" />
+    <Folder Include="Controllers\WebAPI-MyLOB-Custom\" />
+    <Folder Include="Controllers\WebAPI-MyLOB\" />
     <Folder Include="Models\AuditTrail\ViewModels\" />
     <Folder Include="Models\MyLOB-Custom\" />
     <Folder Include="Models\MyLOB\CollectionModels\" />
