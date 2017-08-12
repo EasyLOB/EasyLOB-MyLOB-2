@@ -95,7 +95,8 @@
                 // ENTER => TAB
                 $('input').keypress(function(e) {
                     if (e.which == 13) {
-                        $(this).next('input').focus();
+                        //$(this).next('input').focus();
+                        $(this).tabStop(1).focus();
                         e.preventDefault();
                     }
                 });
