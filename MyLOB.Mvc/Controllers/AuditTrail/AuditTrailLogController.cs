@@ -128,7 +128,7 @@ namespace EasyLOB.AuditTrail.Mvc
                                 auditTrailLogItemModel.OperationResult.StatusMessage =
                                     EasyLOB.Resources.PresentationResources.CreateToUpdate;
                                 return JsonResultSuccess(auditTrailLogItemModel.OperationResult,
-                                    Url.Content(String.Format("~/AuditTrailLog/Update?Id={0}", auditTrailLogDTO.Id)));
+                                    Url.Action("Update", "AuditTrailLog", new { Id = auditTrailLogDTO.Id }, Request.Url.Scheme));
                             }
                             else
                             {
@@ -219,7 +219,7 @@ namespace EasyLOB.AuditTrail.Mvc
                             if (auditTrailLogItemModel.IsSave)
                             {
                                 return JsonResultSuccess(auditTrailLogItemModel.OperationResult,
-                                    Url.Content(String.Format("~/AuditTrailLog/Update?Id={0}", auditTrailLogDTO.Id)));
+                                    Url.Action("Update", "AuditTrailLog", new { Id = auditTrailLogDTO.Id }, Request.Url.Scheme));
                             }
                             else
                             {
