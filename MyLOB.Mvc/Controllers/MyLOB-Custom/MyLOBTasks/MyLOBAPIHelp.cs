@@ -6,9 +6,9 @@ namespace MyLOB.Mvc
     {
         #region Methods
 
-        // GET: MyLOBTasks/MyLOBAPIIndex
+        // GET: MyLOBTasks/MyLOBHelp
         [HttpGet]
-        public ActionResult MyLOBAPIIndex()
+        public ActionResult MyLOBHelp()
         {
             return View();
         }

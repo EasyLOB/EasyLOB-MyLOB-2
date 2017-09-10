@@ -38,7 +38,8 @@ namespace EasyLOB.Mvc
             );
 
             // Dependency Injection
-            config.DependencyResolver = new UnityResolver(UnityHelper.Container);
+            // Unity.Mvc
+            config.DependencyResolver = new UnityResolver(UnityConfig.GetConfiguredContainer());
         }
     }
 }

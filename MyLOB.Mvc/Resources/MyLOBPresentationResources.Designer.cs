@@ -61,11 +61,11 @@ namespace MyLOB.Mvc.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MyLOB API Index.
+        ///   Looks up a localized string similar to MyLOB Help.
         /// </summary>
-        public static string TaskMyLOBAPIIndex {
+        public static string TaskMyLOBHelp {
             get {
-                return ResourceManager.GetString("TaskMyLOBAPIIndex", resourceCulture);
+                return ResourceManager.GetString("TaskMyLOBHelp", resourceCulture);
             }
         }
         

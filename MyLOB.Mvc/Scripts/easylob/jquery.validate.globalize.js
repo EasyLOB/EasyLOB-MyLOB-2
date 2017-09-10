@@ -36,7 +36,7 @@
 
     $.validator.methods.date = function (value, element) {
         // !!!
-        val = Globalize.parseDate(value);
+        var val = Globalize.parseDate(value);
 
         // yyyy-MM-dd Razor EditorFor
         if (!val) {
