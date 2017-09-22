@@ -1,4 +1,4 @@
-﻿using EasyLOB.Library.Mvc;
+﻿using EasyLOB.Library.Web;
 using EasyLOB.Mvc;
 using MyLOB.Mvc.Resources;
 using System.Text;

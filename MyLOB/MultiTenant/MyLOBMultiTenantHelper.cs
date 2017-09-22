@@ -1,5 +1,5 @@
 ﻿using EasyLOB.Library;
-using EasyLOB.Library.Mvc;
+using EasyLOB.Library.Web;
 using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.IO;
@@ -26,7 +26,7 @@ namespace MyLOB
                 {
                     try
                     {
-                        string filePath = Path.Combine(MvcHelper.WebDirectory(ConfigurationHelper.AppSettings<string>("Directory.Configuration")),
+                        string filePath = Path.Combine(WebHelper.WebDirectory(ConfigurationHelper.AppSettings<string>("Directory.Configuration")),
                             "JSON/MyLOBMultiTenant.json");
                         string json = File.ReadAllText(filePath);
                         tenants = JsonConvert.DeserializeObject<List<MyLOBTenant>>(json);

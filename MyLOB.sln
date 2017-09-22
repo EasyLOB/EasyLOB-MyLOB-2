@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Unit Test", "0 - Unit Test", "{4FF6C370-3B9E-4ABA-A0F5-7C215ECBEBED}"
 EndProject
@@ -128,6 +128,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyLOB", "..\EasyLOB-2\EasyLOB\EasyLOB.csproj", "{6706907A-8932-46E7-A1C8-7575130FF8F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLOB", "MyLOB\MyLOB.csproj", "{03EE3CD2-68CD-455B-986D-022CB8FFD94F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyLOB.Library.Web", "..\EasyLOB-2\EasyLOB.Library\EasyLOB.Library.Web\EasyLOB.Library.Web.csproj", "{1B39AFB2-8FE2-46F6-8544-520CD16C3E0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -394,6 +396,12 @@ Global
 		{03EE3CD2-68CD-455B-986D-022CB8FFD94F}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
 		{03EE3CD2-68CD-455B-986D-022CB8FFD94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03EE3CD2-68CD-455B-986D-022CB8FFD94F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B39AFB2-8FE2-46F6-8544-520CD16C3E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B39AFB2-8FE2-46F6-8544-520CD16C3E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B39AFB2-8FE2-46F6-8544-520CD16C3E0B}.DebugLocal|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B39AFB2-8FE2-46F6-8544-520CD16C3E0B}.DebugLocal|Any CPU.Build.0 = Debug|Any CPU
+		{1B39AFB2-8FE2-46F6-8544-520CD16C3E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B39AFB2-8FE2-46F6-8544-520CD16C3E0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -455,5 +463,6 @@ Global
 		{AD02EE3B-8DB6-482E-BB12-3B44E561CDB4} = {DB032904-69E0-4020-A2B4-6E3A321529F8}
 		{6706907A-8932-46E7-A1C8-7575130FF8F7} = {8B32F2EA-F031-4C02-B3B9-EF0F3E380D96}
 		{03EE3CD2-68CD-455B-986D-022CB8FFD94F} = {87EF7D6D-72BF-4CCA-8E5E-3B1A5C05AC0A}
+		{1B39AFB2-8FE2-46F6-8544-520CD16C3E0B} = {C3413CD2-52DF-4FCF-A4B9-0A3DE515E1EA}
 	EndGlobalSection
 EndGlobal
