@@ -303,7 +303,7 @@ namespace EasyLOB.Activity.Mvc
             int countAll = 0;
             ZOperationResult operationResult = new ZOperationResult();
 
-            if (IsSearch())
+            if (IsSearch(operationResult))
             {
                 try
                 {
