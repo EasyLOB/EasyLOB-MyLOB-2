@@ -10,7 +10,7 @@
 
         #endregion Methods
 
-        #region Methods IsActivity
+        #region Methods Authorization
 
         protected bool IsReport(string reportDirectory, string reportName)
         {
@@ -24,6 +24,6 @@
             return AuthorizationManager.IsReport(Domain, reportDirectory, reportName, operationResult);
         }
 
-        #endregion Methods IsActivity
+        #endregion Methods Authorization
     }
 }

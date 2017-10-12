@@ -10,7 +10,7 @@
 
         #endregion Methods
 
-        #region Methods IsActivity
+        #region Methods Authorization
 
         protected bool IsDashboard(string dashboardDirectory, string dashboardName)
         {
@@ -24,6 +24,6 @@
             return AuthorizationManager.IsDashboard(Domain, dashboardDirectory, dashboardName, operationResult);
         }
 
-        #endregion Methods IsActivity
+        #endregion Methods Authorization
     }
 }
