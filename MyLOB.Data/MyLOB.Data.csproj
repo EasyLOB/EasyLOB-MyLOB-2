@@ -57,10 +57,10 @@
   <ItemGroup>
     <Folder Include="DataModels-Custom\" />
     <Folder Include="DataModels\" />
-    <Folder Include="DataProfiles-Custom\" />
-    <Folder Include="DataProfiles\" />
     <Folder Include="DTOs-Custom\" />
     <Folder Include="DTOs\" />
+    <Folder Include="Profiles-Custom\" />
+    <Folder Include="Profiles\" />
     <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
