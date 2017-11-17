@@ -1,4 +1,5 @@
-﻿using EasyLOB.Library.Web;
+﻿using EasyLOB.Library.App;
+using EasyLOB.Library.Web;
 using System.Web.Mvc;
 
 namespace EasyLOB.Mvc
