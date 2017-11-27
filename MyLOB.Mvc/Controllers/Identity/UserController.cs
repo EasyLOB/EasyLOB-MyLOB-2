@@ -36,14 +36,17 @@ namespace EasyLOB.Identity.Mvc
 
             try
             {
-                IsOperation(userCollectionModel.OperationResult);
+                if (IsIndex(userCollectionModel.OperationResult))
+                {
+                    return View(userCollectionModel);
+                }
             }
             catch (Exception exception)
             {
                 userCollectionModel.OperationResult.ParseException(exception);
             }
 
-            return View(userCollectionModel);
+            return View("OperationResult", new OperationResultViewModel(userCollectionModel.OperationResult));
         }        
 
         // GET & POST: User/Search

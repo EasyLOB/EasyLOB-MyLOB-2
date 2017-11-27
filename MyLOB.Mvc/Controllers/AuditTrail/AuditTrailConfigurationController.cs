@@ -36,14 +36,17 @@ namespace EasyLOB.AuditTrail.Mvc
 
             try
             {
-                IsOperation(auditTrailConfigurationCollectionModel.OperationResult);
+                if (IsIndex(auditTrailConfigurationCollectionModel.OperationResult))
+                {
+                    return View(auditTrailConfigurationCollectionModel);
+                }
             }
             catch (Exception exception)
             {
                 auditTrailConfigurationCollectionModel.OperationResult.ParseException(exception);
             }
 
-            return View(auditTrailConfigurationCollectionModel);
+            return View("OperationResult", new OperationResultViewModel(auditTrailConfigurationCollectionModel.OperationResult));
         }        
 
         // GET & POST: AuditTrailConfiguration/Search

@@ -36,15 +36,18 @@ namespace EasyLOB.Activity.Mvc
 
             try
             {
-                IsOperation(activityRoleCollectionModel.OperationResult);
+                if (IsIndex(activityRoleCollectionModel.OperationResult))
+                {
+                    return View(activityRoleCollectionModel);
+                }
             }
             catch (Exception exception)
             {
                 activityRoleCollectionModel.OperationResult.ParseException(exception);
             }
 
-            return View(activityRoleCollectionModel);
-        }        
+            return View("OperationResult", new OperationResultViewModel(activityRoleCollectionModel.OperationResult));
+        }
 
         // GET & POST: ActivityRole/Search
         [AcceptVerbs(HttpVerbs.Get | HttpVerbs.Post)]
