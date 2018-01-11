@@ -252,7 +252,7 @@
     <Compile Include="Controllers\Identity\UserController.cs" />
     <Compile Include="Controllers\Identity\UserLoginController.cs" />
     <Compile Include="Controllers\Identity\UserRoleController.cs" />
-    <Compile Include="Controllers\MyLOB-Custom\MyLOBTasks\MyLOBAPIHelp.cs" />
+    <Compile Include="Controllers\MyLOB-Custom\MyLOBTasks\MyLOBHelp.cs" />
     <Compile Include="Controllers\MyLOB-Custom\MyLOBTasks\MyLOBStatus.cs" />
     <Compile Include="Controllers\MyLOB-Custom\MyLOBTasks\MyLOBTasksController.cs" />
     <Compile Include="Controllers\Reports\RDL.cs" />
