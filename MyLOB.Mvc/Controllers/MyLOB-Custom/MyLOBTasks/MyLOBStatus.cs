@@ -1,4 +1,4 @@
-﻿using EasyLOB.Library.Web;
+﻿using EasyLOB.Library.AspNet;
 using EasyLOB.Mvc;
 using MyLOB.Mvc.Resources;
 using System.Text;
@@ -19,7 +19,7 @@ namespace MyLOB.Mvc
 
             MyLOBTenant tenant = MyLOBMultiTenantHelper.Tenant;
             result.Append("<br /><b>Multi-Tenant MyLOB</b>");
-            result.Append("<br />:: URL: " + tenant.URL);
+            result.Append("<br />:: Name: " + tenant.Name);
 
             HttpSessionState session = SessionHelper.Session;
             result.Append("<br />");

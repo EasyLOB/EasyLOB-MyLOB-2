@@ -6,7 +6,7 @@ using Microsoft.Owin.Security.Cookies;
 using Owin;
 using System;
 
-namespace EasyLOB.Authentication
+namespace EasyLOB
 {
     public partial class AuthenticationConfig
     {

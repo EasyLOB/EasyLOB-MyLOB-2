@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace EasyLOB.Mvc
+namespace EasyLOB
 {
     public class FilterConfig
     {

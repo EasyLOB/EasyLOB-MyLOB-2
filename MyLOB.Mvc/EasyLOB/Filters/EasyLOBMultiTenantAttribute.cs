@@ -1,8 +1,7 @@
 ﻿using EasyLOB.Library.App;
-using EasyLOB.Library.Web;
 using System.Web.Mvc;
 
-namespace EasyLOB.Mvc
+namespace EasyLOB
 {
     public class EasyLOBMultiTenantAttribute : ActionFilterAttribute // !?! Multi-Tenant
     {
