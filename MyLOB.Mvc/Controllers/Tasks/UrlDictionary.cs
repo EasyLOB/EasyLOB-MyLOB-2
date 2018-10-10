@@ -11,7 +11,7 @@ namespace EasyLOB.Mvc
         [HttpGet]
         public ActionResult UrlDictionary()
         {
-            TaskViewModel viewModel = new TaskViewModel("Tasks", "UrlDictionary", PresentationResources.TaskUrlDictionary);
+            TaskModel viewModel = new TaskModel("Tasks", "UrlDictionary", PresentationResources.TaskUrlDictionary);
 
             return View(viewModel);
         }

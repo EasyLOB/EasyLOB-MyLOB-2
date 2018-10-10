@@ -42,7 +42,7 @@ namespace MyLOB.Mvc
 
             ViewBag.Status = result.ToString();
 
-            TaskViewModel viewModel = new TaskViewModel("MyLOBTasks", "MyLOBStatus", MyLOBPresentationResources.TaskMyLOBStatus);
+            TaskModel viewModel = new TaskModel("MyLOBTasks", "MyLOBStatus", MyLOBPresentationResources.TaskMyLOBStatus);
 
             return View(viewModel);
         }

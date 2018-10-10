@@ -11,7 +11,7 @@ namespace EasyLOB.Mvc
         {
             //if (IsTask("CleanLocalStorage", OperationResult))
             //{
-                TaskViewModel viewModel = new TaskViewModel("Tasks", "CleanLocalStorage", PresentationResources.TaskCleanLocalStorage);
+                TaskModel viewModel = new TaskModel("Tasks", "CleanLocalStorage", PresentationResources.TaskCleanLocalStorage);
 
                 return View(viewModel);
             //}
