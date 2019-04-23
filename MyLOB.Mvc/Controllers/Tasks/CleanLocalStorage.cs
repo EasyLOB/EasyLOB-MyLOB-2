@@ -11,12 +11,12 @@ namespace EasyLOB.Mvc
         {
             //if (IsTask("CleanLocalStorage", OperationResult))
             //{
-                TaskModel viewModel = new TaskModel("Tasks", "CleanLocalStorage", PresentationResources.TaskCleanLocalStorage);
+                TaskModel taskModel = new TaskModel("Tasks", "CleanLocalStorage", PresentationResources.TaskCleanLocalStorage);
 
-                return View(viewModel);
+                return View(taskModel);
             //}
 
-            //return View("OperationResult", new OperationResultModel(OperationResult));
+            //return View("OperationResult", new OperationResultViewModel(OperationResult));
         }
     }
 }

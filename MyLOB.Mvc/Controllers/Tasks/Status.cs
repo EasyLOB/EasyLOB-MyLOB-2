@@ -156,9 +156,9 @@ namespace EasyLOB.Mvc
 
             ViewBag.Status = result.ToString();
 
-            TaskModel viewModel = new TaskModel("Tasks", "Status", PresentationResources.TaskStatus);
+            TaskModel taskModel = new TaskModel("Tasks", "Status", PresentationResources.TaskStatus);
 
-            return View(viewModel);
+            return View(taskModel);
         }
 
         #endregion Methods
