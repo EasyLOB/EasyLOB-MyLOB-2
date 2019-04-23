@@ -4,7 +4,7 @@ using System.Web.Routing;
 
 namespace EasyLOB
 {
-    public class EasyLOBMyLOBProfileAttribute : ActionFilterAttribute
+    public class MyLOBProfileAttribute : ActionFilterAttribute
     {
         public override void OnActionExecuting(ActionExecutingContext filterContext)
         {

@@ -297,7 +297,7 @@
     <Compile Include="EasyLOB\DIUnity\AppDIUnityHelperIdentity.cs" />
     <Compile Include="EasyLOB\DIUnity\AppDIUnityHelperLog.cs" />
     <Compile Include="EasyLOB\DIUnity\AppDIUnityHelperMyLOB.cs" />
-    <Compile Include="EasyLOB\Filters\EasyLOBMyLOBProfileAttribute.cs" />
+    <Compile Include="EasyLOB\Filters\MyLOBProfileAttribute.cs" />
     <Compile Include="EasyLOB\Filters\EasyLOBMultiTenantAttribute.cs" />
     <Compile Include="EasyLOB\Filters\EasyLOBProfileAttribute.cs" />
     <Compile Include="EasyLOB\Identity\AppHelper.cs" />
